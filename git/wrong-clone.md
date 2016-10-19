@@ -11,10 +11,10 @@ origin git@github.com:htmlacademy-adaptive/6-pink.git (fetch)
 origin git@github.com:htmlacademy-adaptive/6-pink.git (push)
 ```
 
-Так и есть, тут репозиторий Академии. Видите `htmlacademy-adaptive`? Переименуем его из `origin` в `upstream`:
+Так и есть, тут репозиторий Академии. Видите `htmlacademy-adaptive`? Переименуем его из `origin` в `academy`:
 
 ```
-git remote rename origin upstream
+git remote rename origin academy
 ```
 
 И посмотрим, что получилось:
@@ -22,8 +22,8 @@ git remote rename origin upstream
 ```
 git remote -v
 
-upstream git@github.com:htmlacademy-adaptive/6-pink.git (fetch)
-upstream git@github.com:htmlacademy-adaptive/6-pink.git (push)
+academy git@github.com:htmlacademy-adaptive/6-pink.git (fetch)
+academy git@github.com:htmlacademy-adaptive/6-pink.git (push)
 ```
 
 Теперь добавим в ориджин ваш форк. Зайдите на страницу своего форка и скопируйте адрес. Важно выбрать SSH:
@@ -43,6 +43,6 @@ git remote -v
 
 origin  git@github.com:meritt/6-pink.git (fetch)
 origin  git@github.com:meritt/6-pink.git (push)
-upstream    git@github.com:htmlacademy-adaptive/6-pink.git (fetch)
-upstream    git@github.com:htmlacademy-adaptive/6-pink.git (push)
+academy    git@github.com:htmlacademy-adaptive/6-pink.git (fetch)
+academy    git@github.com:htmlacademy-adaptive/6-pink.git (push)
 ```
